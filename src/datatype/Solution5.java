@@ -18,7 +18,7 @@ public class Solution5 {
 //        System.out.println("Integer.parseInt(\"hundred\") = " + Integer.parseInt("hundred"));
 
         int num4 = 200;
-//        System.out.println("num4.toString()= " + new (Integer)num4.toString());
+        System.out.println("num4.toString()= " + new Integer(num4).toString());
 
         String str2 = "200";
         int num5 = 300;
