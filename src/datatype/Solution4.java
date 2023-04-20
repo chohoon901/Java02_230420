@@ -1,13 +1,11 @@
 
 package datatype;
 
-import java.text.MessageFormat;
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Solution4 {
     public static void main(String[] args) {
-        ArrayList<String> langList = new ArrayList<String>();
+        ArrayList<String> langList = new ArrayList<>();
         langList.add("java");
         langList.add("python");
         langList.add("c");
@@ -26,5 +24,5 @@ public class Solution4 {
 }
 
 enum Language{
-    JAVA, PYTHON, C, CPP;
+    JAVA, PYTHON, C, CPP
 } // 내가 정한 언어들의 묶음
